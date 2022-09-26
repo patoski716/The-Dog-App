@@ -32,7 +32,7 @@ const SingleDog = () => {
                 <h1 className="text-white">Name: {item.name}</h1>
         <div className="row">
             <div className="col-md-6 text-white mb-5">
-            <img src={`https://cdn2.thedogapi.com/images/${item.reference_image_id}.jpg`} alt="{item.name}" style={{maxHeight:'400px'}}/>
+            <img src={`https://cdn2.thedogapi.com/images/${item.reference_image_id}.jpg`} alt="{item.name}" style={{maxHeight:'200px'}}/>
 
 
             </div>
